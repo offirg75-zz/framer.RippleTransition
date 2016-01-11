@@ -13,7 +13,7 @@ Put rippleModule.coffee in the modules folder.
 
 1.Require the module:
 ````
-module = require("rippleModule")
+rippleMod = require("rippleModule")
 ````
 
 2.Create the ripple layer by calling the module function *ripple(layerA, layerB, originX, originY, animationOptions)*
@@ -23,7 +23,7 @@ module = require("rippleModule")
 * originY- ripple Y origin where it expands from
 * animationOptions- ripple animationOptions object (optional)
 ````
-ripl = rippleModule.ripple layer1, layer2, 50, 50, animationOptions
+ripl = rippleMod.ripple layer1, layer2, 50, 50, animationOptions
 ````
 
 3.Change the ripple state ("fill", "empty") by using the states Framer js API
